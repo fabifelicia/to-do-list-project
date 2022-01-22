@@ -4,7 +4,7 @@ function clear() {
     document.querySelector('input').value = '';
 }
 
-const btn = document.querySelector('button').addEventListener('click', () => {    
+document.querySelector('button').addEventListener('click', () => {    
     const inputValue = document.querySelector('input').value;
     if (inputValue === '') {
         swal({title: "Atenção!",text:'Digite uma tarefa', icon: "warning",})
