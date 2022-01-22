@@ -1,6 +1,6 @@
 # To-do-List Project
 
-### Projeto criado como desafio no Bootcamp JS da platafoma ![DIO](https://www.dio.me/)
+### Projeto criado como desafio no Bootcamp JS da platafoma [![DIO](https://www.dio.me/)]
 
 ## Tecnologias Utilizadas
 
