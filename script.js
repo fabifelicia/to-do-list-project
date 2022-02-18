@@ -6,7 +6,7 @@ function clear() {
 
 document.querySelector('button').addEventListener('click', () => {    
     const inputValue = document.querySelector('input').value;
-    if (inputValue === '') {
+    if (inputValue.trim().length === 0) {
         swal({title: "Atenção!",text:'Digite uma tarefa', icon: "warning",})
     } else {
         list(inputValue)
@@ -23,4 +23,6 @@ function list(value) {
     `;
     div.appendChild(cardContainer)
 }
+
+
 

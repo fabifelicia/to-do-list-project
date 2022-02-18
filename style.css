@@ -8,9 +8,9 @@
 }
 
 body {
-  display: flex;
+  margin: auto;
   background-color: rgb(162, 185, 230);
-  flex-direction: column;
+  width: 80%;
 }
 
 header {
@@ -27,7 +27,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 #list {
@@ -41,7 +41,12 @@ input {
   padding: 5px 15px;
   border-radius: 50px;
   border: none;
-  width: 30%;
+  width: 35%;
+}
+
+input:focus {
+  color: rgba(41, 41, 246, 1);
+  outline: none;
 }
 
 button {
